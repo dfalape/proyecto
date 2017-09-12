@@ -1,0 +1,126 @@
+
+
+header{
+    
+	width: 100%;
+	/* para que la barra permanezca fija en el HTML */
+	position:fixed;
+	z-index:100;
+	position: absolute; /* */
+}
+header nav{ /* el ancho de la barra de navegacion*/
+	width: 100%;
+	max-width: 100%;
+	background: #238276; /* color de la barra de navegacion*/
+}
+.menu_bar{
+	display: none; /*icon o la opcion de menu bar no aparezca*/
+}
+header nav ul{
+	overflow: hidden; /*para que no se conecte la barra con el texto*/
+	list-style: none; /*para desaparezcan los puntos del ul*/
+}
+header nav ul li {
+	float: left; /*para que las etiquetas permanezcan el parte izquierda*/
+}
+
+header nav ul li a{
+	color: #fff; /*color de los href*/
+	padding: 20px; /*para que se posiciones con pixeles por todos los lados*/
+	display: block; /*funciona como un display inline, se posicionen en una sola linea*/
+	text-decoration: none;
+}
+
+header nav ul li span{
+	margin-right: 10px; /*para que los span queden separados de los li*/
+}
+header nav ul li a:hover{ /*para cuando el maus pase por ese lado cambie de color*/
+	background: #037e8c; 
+}
+
+/*Hacer Una barra de busqueda*/
+.search_bar{
+	width: 15%;
+	float: right;
+	margin-top: 20px;
+	box-sizing: border-box;
+	position: relative;
+	margin-right: 40px;
+
+
+}
+.search_bar input {
+	width: 100%;
+	height: auto;
+	border-radius: 50px;
+	border:none;
+	border-bottom: 1px solid #858585;
+	padding: 0px 11px 0px 32px;
+	box-sizing: border-box;
+	height: 22px;
+
+	box-shadow: insert 0px 1px 3px rgba(0,0,0,.7);
+	background: #586548;
+}
+
+.search_bar input:focus{
+	background: #fff;
+	box-shadow: none;
+	
+}
+#lupa {
+	position: absolute;
+	bottom: 4px;
+	left: 10px;
+	color: #fff;
+	text-decoration: none;
+}
+
+
+@media screen and (max-width: 800px){ /*para que haga funciones cuando la pantalla llegue a tanto tamaño */
+	
+	header nav {
+		width: 80%;
+		height: 100%;
+		/* esta parte es para hacerlo mejor no es necesario con el comoentairo de js del menu*/
+		left: -100%;
+		/**/
+		margin: 0;
+		position: fixed; /*posicion este fija o estatica*/
+
+	}
+
+	header nav ul li {
+		display: block; /*para que las etiquetas formen una fila*/
+		float: none; /*No flote hacia la izquierda*/
+		border-bottom: 1px solid rgba(255, 255, 255, .3); /*color */
+	}
+
+	.menu_bar{
+		display: block; /* volver a aparecer el menu*/
+		width: 100%;
+		background: #ccc;
+	}
+	.menu_bar .bt-menu{
+
+		display: block;/*el de menu bar quede en la parte de arriba */
+		padding: 20px;
+		background: #024959;
+		color: #fff;
+		text-decoration: none;
+		font-weight: bold;/*funete negrilla*/
+		font-size: 25px; /*decoracion y tamaño*/
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		box-sizing: border-box;
+
+	}
+	
+	.menu_bar span{
+		float: right;
+		font-size: 40px;
+	}
+
+
+
+}

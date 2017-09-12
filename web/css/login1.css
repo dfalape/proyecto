@@ -1,0 +1,114 @@
+/*
+diseño de la barra de navegacion
+*/ 
+
+#navegacion{
+    background: #238276;
+    
+}
+#texto{
+    color: white;
+}
+#texto:hover{
+    background: #E5E7E9;
+    color: black;
+}
+
+
+
+/* partes del formulario
+----------------
+diseño del formulario
+*/
+
+
+section{
+    margin-top: 2%;
+}
+.titulo{
+    background-color: #D7DBDD;
+     color: black;
+   text-align: center;
+   width: 100%;
+   padding: 7px;
+}
+/*diseño del boton*/
+#btLogin{ 
+    margin-top: 20px;
+    background: rgba(89, 181, 72, 1);
+    color: white;
+}
+form{
+        width: 100%;
+        max-width: 300px;
+        height: auto;
+	margin: 0 auto;
+        background: white;
+	padding: 10px 20px;
+	box-sizing: border-box;
+	margin-top: 20px;
+	border-radius: 7px; 
+	border: 1px solid #18A383;
+    }
+input, textarea{
+				border: 0;
+				outline: none;
+				width: 100%;
+                              
+			}
+			#field{
+				border: solid 1px #ccc;
+				border-radius: 0 5px 5px 0;
+				width: 100%;
+                               
+			}
+			
+                        #field:focus{
+				border-color: #18A383;
+			}
+			.center-content{
+				text-align: center;
+			}
+			.field-container div{
+				display: inline-block;
+			}
+			.field-container i{
+				border: solid 1px #ccc;
+				background-color: #ddd;
+				border-radius: 5px 0 0 5px;
+				color: #888;
+			}
+			
+			.active{
+				background-color: white !important;
+			}
+			.columns >div{
+				display: inline-block;
+				vertical-align: top;
+				width: 50%;
+			}
+			.columns .field{
+				width: 80px;
+			}
+		
+                        p{
+                            font-size: 12px;
+                            padding-top: 5px;
+                        }
+                        /*ubicacion del check*/
+                       
+                        
+                        .checkbox{
+                            text-align: center;
+                        }
+                        .check{
+                            text-align: right;
+                        }
+                        #forgot{
+                            margin-top: 2%;
+                            margin-left: 35%;
+                        }
+                        #btLogin{
+                            margin-top: 2%;
+                            background: rgba(89, 181, 72, 1);
+                        }

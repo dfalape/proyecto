@@ -1,0 +1,24 @@
+/* Lista de los Formularios*/
+
+.titleList{
+    background-color: gray;
+    text-align: center;
+    color: white;
+    padding: 2px;
+    width: 100%;
+    max-width: 950px;
+
+}
+.listCompletas{
+    position: absolute;
+}
+
+.listButton{
+    margin-top: 2%;
+    margin-left: 10%;
+}
+.contenidoTable{
+    position: relative;
+    margin: 0 auto;
+    
+}

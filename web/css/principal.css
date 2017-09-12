@@ -1,0 +1,109 @@
+/*esttilo del footer*/
+
+  
+                .imgs{
+                    margin:0 auto;
+                    width: 100%;
+                    height: auto;
+                    max-width: 100px;
+                    margin-top: 1%;
+                    float: right;
+                 
+                }
+                .img2{
+                    margin:0 auto;
+                    width: 100%;
+                    height: 100px;;
+                    max-width: 500px;
+                    margin-top: 1%;
+                    margin-left: 21%;
+                  
+                }
+                .tit{
+                    margin-top: 3%;
+                    float: left;
+                }
+
+
+
+/*fin footer*/
+
+.limpiar{
+    width: 100%;
+  
+    padding: 4.5%;
+    clear: both;
+}
+
+/*
+diseño de la barra de navegacion
+*/ 
+#navegacion{
+    background: #238276;
+    
+}
+#texto{
+    color: white;
+}
+#texto:hover{
+    background: #E5E7E9;
+    color: black;
+}
+/*esttilo del footer*/
+footer{
+                    background-color: black;
+                 margin-top: 11%;
+                  
+                }
+                .imagen{
+                    margin: 0 auto;
+                    padding-top: 7%;
+                    padding-left: 20%;
+                }
+                .img{
+                    margin:0 auto;
+                    width: 100%;
+                    height: auto;
+                    max-width: 500px;
+                    border-radius: 35px;
+                }
+
+ .botonpapu {
+    background-color: white; /* Green */
+    border: none;
+    color: white;
+    padding: 7px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+   position: relative;
+  
+}
+.botonF{
+    margin-top: 7%; 
+    margin-left: 25%;
+}
+.botonpapu {
+    background-color: #238276;
+    color: black; 
+    border: 2px solid white;  
+}
+
+.botonpapu:hover {
+    background-color: #fc7323;
+    color: white;
+}
+.copy{
+    margin-top: 20%;
+    font-size: 20px;
+    color: white;
+}
+
+/*fin footer*/
+
+/*flotar sección de twitter*/
+

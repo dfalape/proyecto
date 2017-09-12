@@ -1,0 +1,39 @@
+/*
+diseño de la barra de navegacion
+*/ 
+
+#navegacion{
+    background: #238276;
+    
+}
+#texto{
+    color: white;
+}
+#texto:hover{
+    background: #E5E7E9;
+    color: black;
+}
+
+
+
+/* partes del formulario
+----------------
+diseño del formulario
+*/
+
+.titulo{
+    background-color: #D7DBDD;
+     color: black;
+   text-align: center;
+   width: 100%;
+   padding: 7px;
+}
+
+#registrar{ 
+    margin-top: 20px;
+    margin-left: 60%;
+    padding-left: 40px;
+    padding-right: 40px;
+    background: rgba(89, 181, 72, 1);
+}
+

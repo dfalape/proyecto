@@ -1,0 +1,33 @@
+/*
+diseño de la barra de navegacion
+*/ 
+#navegacion{
+    background: #238276;
+    
+}
+#texto{
+    color: white;
+}
+#texto:hover{
+    background: #E5E7E9;
+    color: black;
+}
+/*diseño del boton*/
+#reset{
+    background: rgba(89, 181, 72, 1);
+}
+#resetp{
+    margin-top: 20px;
+    margin-left: 60%;
+    padding-left: 40px;
+    padding-right: 40px;
+    background: rgba(89, 181, 72, 1);
+}
+#btProfile{
+    padding-left: 40px;
+    padding-right: 40px;
+    background: rgba(89, 181, 72, 1);
+}
+#omitir{
+    margin-left: 2%;
+}

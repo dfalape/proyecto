@@ -1,0 +1,267 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+    font-family: Arial;
+    background-color: #273746;
+    }
+    #codCiudad{
+        
+    }		
+form 
+{   
+    
+        background-color: white;
+	width: 100%;
+        max-width: 900px;
+        height: auto;
+	margin:  0 auto;
+	padding: 10px 20px;
+	box-sizing: border-box;
+	border-radius: 0 0 3px 3px; 
+	border: 1px solid #fc7323;   
+}
+section{
+   margin-top: 1%; 
+}
+.tituloFirst{
+    width: 100%;
+    max-width: 900px;
+    height: auto;
+    margin:  0 auto;
+    box-sizing: border-box;
+    border: 1px solid #fc7323;
+    
+}
+.titulo1{
+    text-align: center;
+    font-family: serif;
+    font-weight: bold;
+    
+}
+.linea {
+   border: 1em solid #238276;
+}
+.linea2{
+    border: 2px solid #fc7323;
+}
+
+		input, textarea{
+			border: 0;
+			outline: none;
+			width: 100%;
+		}
+                #parejas{
+                        width: 380px;
+                     
+                }
+               
+                #mitad{
+                    width: 100%;
+                    
+                }
+                .fecha{
+                    padding: 4px;
+                }
+                .titulo{
+                
+                   width: 100%;
+                   padding-top: 25px;
+                   height: 80px;
+                   
+                   background-color: #E5E7E9;
+                }
+                .titulo2{
+                 
+                   width: 100%;
+                   padding-top: 4px;
+                   height: 40px;
+                   background-color: #E5E7E9;
+                }
+                .titulo h6{
+                  font-family: sans-serif;
+                   font-size: 15px;
+                   font-weight: bold;
+                   text-align: center;
+                   
+                }
+                .titulo2 h6{
+                  font-family: sans-serif;
+                   font-size: 15px;
+                   font-weight: bold;
+                   text-align: center;
+                   
+                }
+                #opciones{
+                     width: 100%;
+                }
+                #chao{
+                    width: 100%;
+                    
+                }
+                #mitadM{
+                    width: 50%;
+                }
+                .centro{
+                 padding: 30px 4px 20px 120px;
+                    
+                }
+                
+                
+		.field{
+			border: solid 1px #ccc;
+			border-radius: 0 5px 5px 0;
+			padding: 10px;
+			width: 100%;
+			
+		}
+		.field:focus{
+			border-color: #18A383;
+		}
+		.center-content{
+			text-align: center;
+		}
+		.field-container div{
+			display: inline-block;
+			vertical-align: top;
+		}
+		.field-container i{
+			border: solid 1px #ccc;
+			background-color: #ddd;
+			border-radius: 5px 0 0 5px;
+			color: #888;
+			padding: 10px 10px 11px 10px;
+			margin-right: 1%;
+			vertical-align: top;
+		}
+		#menu, #formularios{
+			margin: 0 auto;
+			
+		}
+		#menu ul{
+			list-style: none;
+			margin: 0;
+			padding: 0;
+		}
+		#menu ul li{
+			display: inline-block;
+			width: 50%;
+			margin-right: -4px;
+		}
+		#menu ul li a{
+			background-color: #ddd;
+			color: #222;
+			display: block;
+			padding: 20px 20px;
+			text-decoration: none;
+		}
+		#menu ul li a:hover{
+			background-color: #eee;
+		}
+		.active{
+			background-color: white !important;
+		}
+		.columns >div{
+			display: inline-block;
+			vertical-align: top;
+			width: 50%;
+			margin-right: -2px;
+		}
+                .columns3 >div{
+			display: inline-block;
+			vertical-align: top;
+			width: 33%;
+			margin-right: -4px;
+                        border: 1px solid gray;
+		}
+                
+		.columns .field{
+			width: 80px;
+		}
+                .btn{
+                     background: #238276;
+                    color: white;
+                    font-family: sans-serif;
+                    font-size: 20px;
+                    font-weight: bold;
+                }
+                .paso1{
+                    
+                }
+                .paso2{
+                    display: none;
+                }
+                .paso3{
+                    display: none;
+                }
+                footer{
+                    background-color: black;
+                }
+                .imagen{
+                    margin: 0 auto;
+                    padding-top: 7%;
+                    padding-left: 20%;
+                }
+                .img{
+                    margin:0 auto;
+                    width: 100%;
+                    height: auto;
+                    max-width: 500px;
+                    border-radius: 35px;
+                }
+
+ .botonpapu {
+    background-color: white; /* Green */
+    border: none;
+    color: white;
+    padding: 7px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+   position: relative;
+  
+}
+.botonF{
+    margin-top: 7%; 
+    margin-left: 25%;
+}
+.botonpapu {
+    background-color: #238276;
+    color: black; 
+    border: 2px solid white;  
+}
+
+.botonpapu:hover {
+    background-color: #fc7323;
+    color: white;
+}
+.copy{
+    margin-top: 20%;
+    font-size: 20px;
+    color: white;
+}
+.title{
+    color: #ECF0F1;
+}
+.liF{
+    color: white;
+}
+
+.agregar{
+    margin-left: 80%;
+    padding-top: 3%;
+}
+#agregarB{
+    width: 100%;
+    max-width: 100px;
+    background-color: #596548;
+    color: white;
+}
+#agregarI{
+    
+}
