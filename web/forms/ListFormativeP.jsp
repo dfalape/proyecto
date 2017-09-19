@@ -3,7 +3,7 @@
     Created on : 12-jul-2017, 0:46:10
     Author     : rober
 --%>
-<%@page import="models.FormativeProject"%>
+<%@page import="model.FormativeProject"%>
 <%@page import="java.util.Iterator"%>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 

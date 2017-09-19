@@ -14,10 +14,10 @@ import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
-import models.Person;
-import models.Role;
-import models.State;
-import models.TrainingCenter;
+import model.Person;
+import model.Role;
+import model.State;
+import model.TrainingCenter;
 
 /**
  *

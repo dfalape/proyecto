@@ -4,7 +4,7 @@
     Author     : rober
 --%>
 
-<%@page import="models.PadagogicalPlanning"%>
+<%@page import="model.PadagogicalPlanning"%>
 <%@page import="java.util.Iterator"%>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 

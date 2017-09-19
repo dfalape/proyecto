@@ -11,10 +11,10 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
-import models.ProjectPhases;
-import models.EstimatedResources;
-import models.ProjectActivities;
-import models.LearningOutcomes;
+import model.ProjectPhases;
+import model.EstimatedResources;
+import model.ProjectActivities;
+import model.LearningOutcomes;
 
 public class ProjectActivitiesController extends Conection {
 

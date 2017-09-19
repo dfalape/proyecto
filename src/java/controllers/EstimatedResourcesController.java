@@ -11,7 +11,7 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
-import models.EstimatedResources;
+import model.EstimatedResources;
 
 
 public class EstimatedResourcesController extends Conection {

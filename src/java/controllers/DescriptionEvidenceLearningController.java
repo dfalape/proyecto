@@ -7,8 +7,8 @@ package controllers;
 
 import dataAccess.Conection;
 import java.sql.SQLException;
-import models.DescriptionEvidenceLearning;
-import models.LearningOutcomes;
+import model.DescriptionEvidenceLearning;
+import model.LearningOutcomes;
 
 /**
  *

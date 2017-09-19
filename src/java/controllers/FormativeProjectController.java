@@ -12,12 +12,10 @@ import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
 
-import models.CurricularDesign;
-
-import models.FormativeProject;
-import models.State;
-
-import models.TrainingCenter;
+import model.CurricularDesign;
+import model.FormativeProject;
+import model.State;
+import model.TrainingCenter;
 
 /**
  *

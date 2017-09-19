@@ -14,12 +14,12 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 //hacemos las debidas importaciones
-import models.ProjectPhases;
-import models.FormativeProject;
-import models.ProjectActivities;
-import models.EstimatedResources;
-import models.LearningOutcomes;
-import models.Competence;
+import model.ProjectPhases;
+import model.FormativeProject;
+import model.ProjectActivities;
+import model.EstimatedResources;
+import model.LearningOutcomes;
+import model.Competence;
 
 //importamos a la base de datos
 import controllers.ProjectPhasesController;

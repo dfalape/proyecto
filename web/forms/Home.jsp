@@ -4,7 +4,7 @@
     Author     : FERGO
 --%>
 
-<%@page import="models.Person"%>
+<%--<%@page import="models.Person"%>--%>
 <%@page import="java.util.Iterator"%>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <%@page session="true"%>
@@ -14,7 +14,7 @@
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <meta name="viewport" content="width=device-width, user-scalable=no">	
         <link rel="stylesheet" href="../css/listForm.css">
-        
+
         <link rel="stylesheet" href="../css/bootstrap.min.css">
         <link rel="stylesheet" href="../css/home.css">
         <link rel="stylesheet" href="../css/validacionFORMS.css">
@@ -55,12 +55,14 @@
         </nav>
 
         <input id="txtId" type="hidden" value="<%= usu%>">
-
-        <aside>
-            <%!
-                Iterator it2 = null;
-                Person p2;
-            %>
+     
+        <div id="administrador">
+            <aside>
+                <%-- 
+                    <%!
+                        Iterator it2 = null;
+                        Person p2;
+                    %>
 
             <jsp:useBean id="obj2" class="controllers.PersonController" scope="page">
 
@@ -90,58 +92,69 @@
                 }
 
             %>
-            <hr class="linea3">
-            <div class="Acording">
-                <ul id="accordion" class="accordion">
-                    <li>
-                        <div id="0a" class="link"><i class="fa fa-user-o fa fa"></i>Usuario <i class="fa fa-chevron-down fa fa"></i></div>
-                        <ul id="submenu" class="submenu">	
-                            <li id="upD"><a  class="a" href="#" >Modificar Datos</a></li>
+                --%>
+                <hr class="linea3">
+                <div class="Acording">
+                    <ul id="accordion" class="accordion">
+                        <li>
+                            <div id="0a" class="link"><i class="fa fa-user-o fa fa"></i>Usuario <i class="fa fa-chevron-down fa fa"></i></div>
+                            <ul id="submenu" class="submenu">	
+                                <li id="upD"><a  class="a" href="#" >Modificar Datos</a></li>
 
-                            <li id="mPass"><a class="a" href="#" >Cambiar contraseña</a></li>
-                        </ul>
-                    </li>
+                                <li id="mPass"><a class="a" href="#" >Cambiar contraseña</a></li>
+                            </ul>
+                        </li>
 
-                    <li>
-                        <div id="1a" class="link"><i class="fa fa-archive fa fa"></i>Procesos<i class="fa fa-chevron-down fa fa"></i></div>
-                        <ul class="submenu">
-
-
-                            <li id="lDC" ><a class="a" href="#">Diseño curricular</a></li>
-                            <li id="lPF" ><a class="a" href="#">Proyecto Formativo</a></li>
-                            <li id="lPP" ><a class="a" href="#">Planeación Pedagógica</a></li>
-                            <li id="lCG" ><a class="a" href="#">Cronograma Gantt</a></li>
-                            <li id="lGU" ><a class="a" href="#">Gestionar Guía</a></li>
-                            <li id="lSM" ><a class="a" href="#">Generar cuadro resumen</a></li>
-                        </ul>
-                    </li>
-
-                    <li>
-                        <div id="2a" class="link"><i class="fa fa-paint-brush fa fa"></i>Usuarios<i class="fa fa-chevron-down fa fa"></i></div>
-                        <ul class="submenu">	
-                            <li id="lR" ><a class="a" href="#">Roles y tareas</a></li>
-                            <li id="lLP" ><a class="a" href="#">Usuarios</a></li>
-                            <li id="" ><a class="a" href="#">Diseño responsive sub-munu</a></li>
-                            <li id="" ><a class="a" href="#">Diseño responsive sub-munu</a></li>
-                            <li id="" ><a class="a" href="#">Diseño responsive sub-munu</a></li>
-                        </ul>
-                    </li>
-
-                    <li>
-                        <div id="3a" class="link"><i class="fa fa-power-off fa fa"></i>Sesión <i class="fa fa-chevron-down fa fa"></i></div>
-                        <ul class="submenu">
-                            <li><a class="a"
-                                   <%                                       out.println("href='../index.jsp?cerrar=true'");
-                                   %>
-                                   >cerrar sesión</a></li>
+                        <li>
+                            <div id="1a" class="link"><i class="fa fa-archive fa fa"></i>Procesos<i class="fa fa-chevron-down fa fa"></i></div>
+                            <ul class="submenu">
 
 
-                        </ul>
-                    </li>
-                </ul>
-            </div>
-        </aside>
+                                <li id="lDC" ><a class="a" href="#">Diseño curricular</a></li>
+                                <li id="lPF" ><a class="a" href="#">Proyecto Formativo</a></li>
+                                <li id="lPP" ><a class="a" href="#">Planeación Pedagógica</a></li>
+                                <li id="lCG" ><a class="a" href="#">Cronograma Gantt</a></li>
+                                <li id="lGU" ><a class="a" href="#">Gestionar Guía</a></li>
+                                <li id="lSM" ><a class="a" href="#">Generar cuadro resumen</a></li>
+                            </ul>
+                        </li>
 
+                        <li>
+                            <div id="2a" class="link"><i class="fa fa-paint-brush fa fa"></i>Usuarios<i class="fa fa-chevron-down fa fa"></i></div>
+                            <ul class="submenu">	
+                                <li id="lR" ><a class="a" href="#">Roles y tareas</a></li>
+                                <li id="lLP" ><a class="a" href="#">Usuarios</a></li>
+                                <li id="" ><a class="a" href="#">Diseño responsive sub-munu</a></li>
+                                <li id="" ><a class="a" href="#">Diseño responsive sub-munu</a></li>
+                                <li id="" ><a class="a" href="#">Diseño responsive sub-munu</a></li>
+                            </ul>
+                        </li>
+
+                        <li>
+                            <div id="3a" class="link"><i class="fa fa-power-off fa fa"></i>Sesión <i class="fa fa-chevron-down fa fa"></i></div>
+                            <ul class="submenu">
+                                <li><a class="a"
+                                       <%                                       out.println("href='../index.jsp?cerrar=true'");
+                                       %>
+                                       >cerrar sesión</a></li>
+
+
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </aside>
+        </div>
+        
+            </aside>
+
+        </div>
+       
+
+        
+       
+            </aside>
+        </div>
         <section id="sectionTotal" class="listCompletas">
 
         </section>
@@ -151,6 +164,7 @@
         <noscript>Lo sentimos javascript esta dehabilitado</noscript>
         <script type="text/javascript" src="../js/jquery-3.2.1.min.js"></script>
         <script type="text/javascript">
+
             $(document).ready(function () {
                 //VALIADACION DEL SEGUNDO PASO DE SIEÑO CURRICULAR, PLANEACION PEDAGOGICA Y PROYECTO FORMATIVO
                 //***** diseño curricular paso 2 ******//
@@ -169,7 +183,7 @@
                             }
                         }
                         $("#sectionTotal").load("DisenoC1.jsp");
-                        
+
                     }
                     if (v == "pf2") {
                         var n = 0;
@@ -183,7 +197,7 @@
                             }
                         }
                         $("#sectionTotal").load("proyectoF1.jsp");
-                        
+
                     }
                     if (v == "pp2") {
                         var n = 0;
@@ -197,7 +211,7 @@
                             }
                         }
                         $("#sectionTotal").load("planeacionP1.jsp");
-                        
+
                     }
                 });
                 //FIN DEL SEGUNDO PASO DE LOS TRES FORMATOS
@@ -457,8 +471,8 @@
 
 <%@include file="../template/footer.jsp" %>
 
-        <script src="../js/jquery.js"></script>
-        <script src="../js/acordion.js"></script>
+<script src="../js/jquery.js"></script>
+<script src="../js/acordion.js"></script>
 
-        </body>
-        </html>
+</body>
+</html>

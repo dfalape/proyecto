@@ -3,23 +3,27 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package models;
+package model;
+
+
 
 /**
  *
  * @author FERGO
  */
-public class State {
-    
-    ///declaración de atributos
+public class EvaluationCriteria 
+{
+    //declaración de atributos
     private long code;
     private String description;
+    private LearningOutcomes idLO;
+    //cosntructor por defecto
+
+    public EvaluationCriteria() {
+    }
     
-    ////constructor por defecto
-    public State()
-    {}
     
-    ///encapsulamiento de atributos
+    //encapsulamiento de atributos
 
     public long getCode() {
         return code;
@@ -35,6 +39,14 @@ public class State {
 
     public void setDescription(String description) {
         this.description = description;
+    }
+
+    public LearningOutcomes getIdLO() {
+        return idLO;
+    }
+
+    public void setIdLO(LearningOutcomes idLO) {
+        this.idLO = idLO;
     }
     
 }

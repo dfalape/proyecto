@@ -10,9 +10,9 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
-import models.FormativeProject;
-import models.PadagogicalPlanning;
-import models.Person;
+import model.FormativeProject;
+import model.PadagogicalPlanning;
+import model.Person;
 
 /**
  *

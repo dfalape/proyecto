@@ -4,7 +4,7 @@
     Author     : FERGO
 --%>
 
-<%@page import="models.CurricularDesign"%>
+<%@page import="model.CurricularDesign"%>
 <%@page import="java.util.Iterator"%>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <head>

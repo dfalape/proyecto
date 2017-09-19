@@ -3,25 +3,24 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package models;
-
-
+package model;
 
 /**
  *
  * @author FERGO
  */
-public class EvaluationCriteria 
+public class DescriptionEvidenceLearning 
 {
     //declaración de atributos
     private long code;
     private String description;
+    private String type;
     private LearningOutcomes idLO;
-    //cosntructor por defecto
-
-    public EvaluationCriteria() {
-    }
     
+    ///cosntructor por defecto
+
+    public DescriptionEvidenceLearning() {
+    }
     
     //encapsulamiento de atributos
 
@@ -39,6 +38,14 @@ public class EvaluationCriteria
 
     public void setDescription(String description) {
         this.description = description;
+    }
+
+    public String getType() {
+        return type;
+    }
+
+    public void setType(String type) {
+        this.type = type;
     }
 
     public LearningOutcomes getIdLO() {

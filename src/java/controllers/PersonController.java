@@ -19,10 +19,10 @@ import javax.mail.BodyPart;
 import javax.mail.internet.MimeBodyPart;
 import javax.mail.internet.MimeMessage;
 import javax.mail.internet.MimeMultipart;
-import models.Person;
-import models.Role;
-import models.State;
-import models.TrainingCenter;
+import model.Person;
+import model.Role;
+import model.State;
+import model.TrainingCenter;
 
 /**
  *

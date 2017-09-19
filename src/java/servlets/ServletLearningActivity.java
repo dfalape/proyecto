@@ -15,10 +15,10 @@ import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
-import models.DescriptionEvidenceLearning;
-import models.EvaluationCriteria;
-import models.LearningActivity;
-import models.LearningOutcomes;
+import model.DescriptionEvidenceLearning;
+import model.EvaluationCriteria;
+import model.LearningActivity;
+import model.LearningOutcomes;
 
 /**
  *

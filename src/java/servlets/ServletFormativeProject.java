@@ -14,13 +14,13 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 //hacemos las debidas importaciones
-import models.CurricularDesign;
-import models.FormativeProject;
-import models.TrainingCenter;
+import model.CurricularDesign;
+import model.FormativeProject;
+import model.TrainingCenter;
 //importamos a la base de datos
 import controllers.FormativeProjectController;
 import javax.servlet.RequestDispatcher;
-import models.State;
+import model.State;
 //dispachery
 
 /**

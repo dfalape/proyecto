@@ -4,8 +4,8 @@
     Author     : FERGO
 --%>
 
-<%@page import="models.Person"%>
-<%@page import="models.Role"%>
+<%@page import="model.Person"%>
+<%@page import="model.Role"%>
 <%@page import="java.util.Iterator"%>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 

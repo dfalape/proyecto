@@ -12,9 +12,9 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
-import models.Competence;
-import models.CurricularDesign;
-import models.State;
+import model.Competence;
+import model.CurricularDesign;
+import model.State;
 
 /**
  *

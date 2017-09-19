@@ -3,20 +3,26 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package models;
+package model;
 
 /**
  *
  * @author FERGO
  */
-public class Regional {
-    
+public class TrainingCenter {
     private long code;
     private String name;
+    private Regional idRegional;
     
-    public Regional()
+    
+    public TrainingCenter()
     {
     }
+    
+    
+    
+
+ // regional_code pendiente... 
 
     public long getCode() {
         return code;
@@ -33,7 +39,12 @@ public class Regional {
     public void setName(String name) {
         this.name = name;
     }
-    
-    
-    
+
+    public Regional getIdRegional() {
+        return idRegional;
+    }
+
+    public void setIdRegional(Regional idRegional) {
+        this.idRegional = idRegional;
+    }
 }

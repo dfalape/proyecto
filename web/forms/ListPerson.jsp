@@ -4,7 +4,7 @@
     Author     : REDP
 --%>
 
-<%@page import="models.Person"%>
+<%@page import="model.Person"%>
 <%@page import="java.util.Iterator"%>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 
